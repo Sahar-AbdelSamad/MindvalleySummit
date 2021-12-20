@@ -115,28 +115,32 @@ body {
   color: #fff;
 }
 
-.main-program-item {
-  border: 1px solid rgba(116, 116, 116, 0.3);
+.grid-item {
+  display: grid;
+  grid-template-columns: 5% 23% 66%;
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  align-items: center;
+  border: none;
   background:rgba(116, 116, 116, 0.3);
   padding: 20px;
 }
 
-.main-program-item h4 {
+.grid-item h4 {
   color: #ff0000b0;
   font-size: 20px;
-  width: 20%;
 }
 
 .icon {
-  width: 10% !important;
-  height: 10% !important;
+  width: 100% !important;
+  height: auto !important;
 }
 
 button {
   display: block;
   color: #fff;
   background-color: #ff0000b0;
-  border: 1px solid #ff0000b0;
+  border: none;
   padding:4%;
   margin: 6% auto;
   margin-bottom: 0;
