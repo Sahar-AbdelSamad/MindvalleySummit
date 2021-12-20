@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #4d4c4c;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  background: #fff;
+  line-height: 1.5rem;
+}
+
+.container {
+  padding: 45px 5%;
+}
+
+/*
+  ========================================
+  header
+  ========================================
+*/
+.toolbar {
+  margin: 0.6rem auto;
+  position: fixed;
+  z-index: 1000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-mobile {
+  display: none;
+}
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 30%;
+}
+
+
+/*
+  ========================================
+  Home
+  ========================================
+*/
+
+/*
+  ========================================
+  Section 1
+  ========================================
+*/
+
+.section1 {
+  background-color: #99a0a7;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 70px;
+}
+
+.section1 h1,
+.section1 h2 {
+  color: #ff1800ed;
+}
+
+.section1 h1,
+.date {
+  font-weight: 700;
+}
+
+.section1 h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  line-height: 0.9;
+}
+
+.description {
+  border: 1px solid #fff;
+  padding: 10px;
+  background-color: #4b464657;
+}
+
+.date {
+  font-size: 20px;
+}
