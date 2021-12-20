@@ -17,6 +17,7 @@ body {
   font-weight: 400;
   background: #fff;
   line-height: 1.5rem;
+  font-size: 20px;
 }
 
 .container {
@@ -69,11 +70,10 @@ body {
 */
 
 .section1 {
-  background-color: #99a0a7;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding-top: 70px;
+  background: url(../images/home/background.jpg) no-repeat;
+  background-size: 100% 100%;
+  height: 100%;
+  padding: 20vh 5%;
 }
 
 .section1 h1,
@@ -84,18 +84,24 @@ body {
 .section1 h1,
 .date {
   font-weight: 700;
+  font-size: 30px;
+  width: 50%;
 }
 
 .section1 h1 {
   text-transform: uppercase;
   font-size: 50px;
-  line-height: 0.9;
+  line-height: 1;
+  margin: 2% 0;
 }
 
 .description {
   border: 1px solid #fff;
   padding: 10px;
-  background-color: #4b464657;
+  background-color: #e7e8ea;
+  width: 40%;
+  font-size: 13px;
+  margin-bottom: 2.5%;
 }
 
 .date {
