@@ -31,7 +31,7 @@ body {
   top: 0;
 }
 
-.nav-mobile {
+.nav-desktop {
   display: none;
 }
 
@@ -39,14 +39,21 @@ body {
 
 .featured-in {
   background-color: #272a31;
-  color: #fff;
+  color: #d3d3d3
 }
 
 .ul {
   display: flex;
-  gap: 3rem;
+  gap: 30px;
+  row-gap: 10px;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.ul img {
+  display: block;
+  width: 20vw;
+  height: 50px;
 }
 
 li {
@@ -55,7 +62,7 @@ li {
 
 /* Footer */
 
-.nav {
+.footer {
   display: flex;
   justify-content: space-around;
 }
@@ -86,7 +93,7 @@ li {
 
 .section1 h1,
 .date {
-  font-weight: 700;
+  font-weight: 900;
   font-size: 30px;
 }
 
@@ -152,6 +159,11 @@ li {
   height: auto !important;
 }
 
+.program,
+.program-hr {
+  display: none;
+}
+
 button {
   display: block;
   color: #d3d3d3;
@@ -191,7 +203,7 @@ h3 {
 
 .flex-item {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 4%;
 }
 
@@ -201,11 +213,6 @@ h3 {
 
 .flex-item img {
   width: 120px;
-  height: 140px;
-}
-
-.speaker {
-  width: 70%;
 }
 
 .grey-line {
@@ -261,13 +268,13 @@ h3 {
 }
 
 .summit-image {
-  width: 100%;
+  width: 430px;
   border: 1px solid #d3d3d3;
   height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 35px;
+  margin: 35px auto 0;
 }
 
 .summit-logo img {
@@ -288,15 +295,6 @@ h3 {
 
 .last-events {
   text-align: center;
-}
-
-.last-events-img {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
-  width: 90%;
-  margin: 35px auto 0;
 }
 
 .afest-events,
@@ -332,12 +330,242 @@ h3 {
   ========================================
 */
 @media screen and (min-width: 768px) {
-  .section1 h1,
-  .date {
-    width: 50%;
+/* Custom styles */
+
+  .container {
+    padding: 45px 10%;
   }
 
-  .description {
-    width: 40%;
-  }
+/* header */
+
+.toolbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  right: 0;
+  background-color: #fff;
+}
+
+.nav-mobile {
+  display: none;
+}
+
+.nav-desktop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-desktop .logo {
+  width: 100px;
+  display: block;
+  padding-top: 10px;
+}
+
+.nav-desktop ul {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.nav-desktop a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #272a31;
+}
+
+.campain {
+  border: 2px solid #ec5242;
+  padding: 0 12px;
+  margin-left: 20px;
+}
+
+/* Featured in */
+
+.ul img {
+  width: 10vw;
+}
+
+/*
+  ========================================
+  Home
+  ========================================
+*/
+
+/* Section 1 */
+
+.section1 {
+  padding: 20vh 15%;
+}
+
+.section1 h1,
+.date {
+  width: 100%;
+}
+
+.description {
+  width: 60%;
+}
+
+/* Main Program */
+
+.flex {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.main-program .flex {
+  gap: 5px;
+}
+
+.grid-item {
+  border: none;
+  background: rgba(116, 116, 116, 0.3);
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  width: 12vw;
+  text-align: center;
+}
+
+.grid-item h4 {
+  color: #ec5242;
+  font-size: 20px;
+}
+
+.icon {
+  width: 40px !important;
+  height: 50px !important;
+  display: block;
+}
+
+button {
+  display: none
+}
+
+.program {
+  display: block;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.program-hr {
+  display: block;
+  margin: auto;
+  width: 255px;
+  margin-bottom: 20px;
+}
+
+/* Speakers */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 30px;
+  column-gap: 8px;
+}
+
+.flex-item {
+  display: flex;
+  gap: 4%;
+  height: 140px;
+}
+
+.flex-item img {
+  width: 94px;
+  height: 140px;
+}
+
+.speaker h4 {
+  font-size: 18px;
+  line-height: normal;
+}
+
+.flex-item p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/*
+  ========================================
+  About
+  ========================================
+*/
+
+/* Section 1 About */
+
+.section1-about h2 {
+  display: none;
+}
+
+/* .section1-about {
+  padding-top: 75px;
+  text-align: center;
+} */
+
+.section1-about h1 {
+  font-size: 35px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.about-desktop {
+  width: 25px;
+  background-color: #ec5242;
+  height: 1px;
+  margin: 5px auto 17px;
+}
+
+.section1-about .description {
+  font-size: 15px;
+  width: 90%;
+  margin: auto;
+}
+
+.email {
+  font-size: 13px;
+  margin-top: 40px;
+  line-height: 1.5;
+}
+
+.email a {
+  font-weight: 700;
+}
+
+.email-hr {
+  display: block;
+  width: 165px;
+  margin: auto;
+}
+
+/* Last Events */
+
+.events {
+  display: flex;
+  gap: 20px;
+  margin: 45px auto 45px;
+}
+
+.afest-events {
+  margin: 0;
+}
+
+/* Featured in */
+
+.featured-in-about {
+  display: none;
+}
+
+/* Footer */
+
+.footer-about {
+  background-color: #272a31;
+  color: #d3d3d3;
+}
 }
