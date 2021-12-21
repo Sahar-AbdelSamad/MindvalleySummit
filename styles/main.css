@@ -71,7 +71,7 @@ li {
 */
 
 /* Section 1 */
-  
+
 .section1 {
   background: url(../images/home/background.jpg) no-repeat;
   background-size: 100% 100%;
@@ -121,6 +121,12 @@ li {
   color: #d3d3d3;
 }
 
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 .main-program .flex {
   gap: 10px;
 }
@@ -132,7 +138,7 @@ li {
   grid-column-gap: 10px;
   align-items: center;
   border: none;
-  background:rgba(116, 116, 116, 0.3);
+  background: rgba(116, 116, 116, 0.3);
   padding: 20px;
 }
 
@@ -151,7 +157,7 @@ button {
   color: #d3d3d3;
   background-color: #ec5242;
   border: none;
-  padding:4%;
+  padding: 4%;
   margin: 9% auto;
   margin-bottom: 0;
   width: 70%;
@@ -159,7 +165,7 @@ button {
 }
 
 /* Speakers */
-  
+
 .speakers {
   color: #272a31;
 }
@@ -181,12 +187,6 @@ h3 {
   color: #ec5242;
   font-style: italic;
   font-size: small;
-}
-
-.flex {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
 }
 
 .flex-item {
@@ -221,7 +221,7 @@ h3 {
   ========================================
 */
 
-/* Section 1 About*/
+/* Section 1 About */
 
 .section1-about {
   padding-top: 75px;
@@ -331,12 +331,13 @@ h3 {
   Media Query
   ========================================
 */
+@media screen and (min-width: 768px) {
+  .section1 h1,
+  .date {
+    width: 50%;
+  }
 
-.section1 h1,
-.date {
-  width: 50%;
-}
-
-.description {
-  width: 40%;
+  .description {
+    width: 40%;
+  }
 }
