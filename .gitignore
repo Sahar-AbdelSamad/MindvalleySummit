@@ -1,5 +1,5 @@
 # .gitignore
-node_modules/
-.stylelintrc.json/
-package-lock.json/
-.eslintrc.json/
+node_modules
+.stylelintrc.json
+package-lock.json
+.eslintrc.json
