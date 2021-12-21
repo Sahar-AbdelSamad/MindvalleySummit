@@ -1,10 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
 
-/*
-  ========================================
-  Custom styles
-  ========================================
-*/
+/* Custom styles */
 
 * {
   padding: 0;
@@ -12,7 +8,7 @@
 }
 
 body {
-  color: #4d4c4c;
+  color: #272a31;
   font-family: "Lato", sans-serif;
   font-weight: 400;
   background: #fff;
@@ -24,28 +20,22 @@ body {
   padding: 45px 5%;
 }
 
-/*
-  ========================================
-  header
-  ========================================
-*/
+/* header */
+
 .toolbar {
-  margin: 0.6rem auto;
-  position: fixed;
   z-index: 1000;
   padding-top: 10px;
   padding-bottom: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .nav-mobile {
   display: none;
 }
 
-/*
-  ========================================
-  Footer
-  ========================================
-*/
+/* Footer */
 
 .nav {
   display: flex;
@@ -56,19 +46,14 @@ body {
   width: 30%;
 }
 
-
 /*
   ========================================
   Home
   ========================================
 */
 
-/*
-  ========================================
-  Section 1
-  ========================================
-*/
-
+/* Section 1 */
+  
 .section1 {
   background: url(../images/home/background.jpg) no-repeat;
   background-size: 100% 100%;
@@ -78,16 +63,15 @@ body {
 
 .section1 h1,
 .section1 h2 {
-  color: #ff1800ed;
+  color: #ec5242;
 }
 
 .section1 h1,
 .date {
   font-weight: 700;
   font-size: 30px;
-  width: 50%;
 }
-
+/* width: 50%; */
 .section1 h1 {
   text-transform: uppercase;
   font-size: 50px;
@@ -95,30 +79,32 @@ body {
   margin: 2% 0;
 }
 
+.section1 h2 {
+  font-weight: 300;
+}
+
 .description {
   border: 1px solid #fff;
   padding: 10px;
   background-color: #e7e8ea;
-  width: 40%;
   font-size: 13px;
   margin-bottom: 2.5%;
 }
-
+/* width: 40%; */
 .date {
   font-size: 20px;
 }
 
-
-/*
-  ========================================
-  Main Program
-  ========================================
-*/
+/* Main Program */
 
 .main-program {
   background: url(../images/home/black-background.jpeg) no-repeat;
   background-size: 100% 100%;
-  color: #fff;
+  color: #d3d3d3;
+}
+
+.main-program .flex {
+  gap: 10px;
 }
 
 .grid-item {
@@ -133,7 +119,7 @@ body {
 }
 
 .grid-item h4 {
-  color: #ff0000b0;
+  color: #ec5242;
   font-size: 20px;
 }
 
@@ -144,22 +130,20 @@ body {
 
 button {
   display: block;
-  color: #fff;
-  background-color: #ff0000b0;
+  color: #d3d3d3;
+  background-color: #ec5242;
   border: none;
   padding:4%;
-  margin: 6% auto;
+  margin: 9% auto;
   margin-bottom: 0;
+  width: 70%;
+  font-size: 20px;
 }
 
-/*
-  ========================================
-  Speakers
-  ========================================
-*/
+/* Speakers */
   
 .speakers {
-  color: #2b2b2b;
+  color: #272a31;
 }
 
 h3 {
@@ -168,7 +152,7 @@ h3 {
 }
 
 .line {
-  background-color: #ff0000b0;
+  background-color: #ec5242;
   width: 40px;
   margin: 10px auto;
   height: 1px;
@@ -176,7 +160,7 @@ h3 {
 }
 
 .author-descrip {
-  color: #ff0000b0;
+  color: #ec5242;
   font-style: italic;
   font-size: small;
 }
@@ -193,23 +177,30 @@ h3 {
   gap: 4%;
 }
 
+.flex-item p {
+  font-size: 12px;
+}
+
 .flex-item img {
   width: 120px;
   height: 140px;
 }
 
-.flex-item div {
+.speaker {
   width: 70%;
 }
 
-/*
-  ========================================
-  Featured in
-  ========================================
-*/
+.grey-line {
+  width: 25px;
+  background-color: #d3d3d3;
+  height: 1px;
+  margin: 3px 0 6px;
+}
+
+/* Featured in */
 
 .featured-in {
-  background-color: #000000bf;
+  background-color: #272a31;
   color: #fff;
 }
 
@@ -222,4 +213,40 @@ h3 {
 
 li {
   list-style-type: none;
+}
+
+/*
+  ========================================
+  About
+  ========================================
+*/
+
+.section1-about {
+  padding-top: 75px;
+  text-align: center;
+}
+
+.section1-about h1 {
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+
+.section1-about .description {
+  font-size: 13px;
+}
+
+.email {
+  font-size: 11px;
+  line-height: normal;
+  margin-top: 30px;
+}
+
+.email a {
+  display: block;
+}
+
+hr {
+  display: block;
+  width: 140px;
+  margin: auto;
 }
