@@ -29,11 +29,6 @@ body {
   padding-top: 15px;
 }
 
-.nav-mobile {
-  transition-duration: 300ms;
-  transition-timing-function: ease-out;
-}
-
 .nav-mobile i {
   color: #272a31;
 }
@@ -359,6 +354,7 @@ h3 {
     display: none;
   }
 
+  
   .nav-desktop {
     display: flex;
     justify-content: space-between;
@@ -386,6 +382,10 @@ h3 {
   .nav-desktop a:focus {
     border: 3px solid #ec5242;
     padding: 8px 16px;
+  }
+
+  .nav-desktop a:hover {
+    color: #ec5242;
   }
 
   /* Featured in */
@@ -579,7 +579,7 @@ h3 {
 
 /*
   ========================================
-  About
+  Mobile Menu
   ========================================
 */
 
@@ -590,8 +590,8 @@ h3 {
   flex-direction: column;
   background-color: #d3d3d3;
   height: 100%;
+  width: 40%;
   padding-top: 60px;
-  transform: translateX(-0%);
 }
 
 .menu ul a {
