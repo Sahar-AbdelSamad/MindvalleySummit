@@ -1,7 +1,6 @@
 const hamburger = document.querySelector('.nav-mobile');
 const navigation = document.querySelector('.nav-desktop');
 const navUl = document.querySelector('.nav-desktop > ul');
-const toolbar = document.querySelector('.toolbar');
 const closeItem = document.querySelector('.close');
 
 const home = document.createElement('li');
@@ -18,4 +17,3 @@ const toggleMenu = () => {
 
 hamburger.addEventListener('click', toggleMenu);
 closeItem.addEventListener('click', toggleMenu);
-
