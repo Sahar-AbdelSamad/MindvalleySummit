@@ -35,6 +35,24 @@ body {
   display: none;
 }
 
+/* Featured in */
+
+.featured-in {
+  background-color: #272a31;
+  color: #fff;
+}
+
+.ul {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li {
+  list-style-type: none;
+}
+
 /* Footer */
 
 .nav {
@@ -71,7 +89,7 @@ body {
   font-weight: 700;
   font-size: 30px;
 }
-/* width: 50%; */
+
 .section1 h1 {
   text-transform: uppercase;
   font-size: 50px;
@@ -90,7 +108,7 @@ body {
   font-size: 13px;
   margin-bottom: 2.5%;
 }
-/* width: 40%; */
+
 .date {
   font-size: 20px;
 }
@@ -197,29 +215,13 @@ h3 {
   margin: 3px 0 6px;
 }
 
-/* Featured in */
-
-.featured-in {
-  background-color: #272a31;
-  color: #fff;
-}
-
-.ul {
-  display: flex;
-  gap: 3rem;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-li {
-  list-style-type: none;
-}
-
 /*
   ========================================
   About
   ========================================
 */
+
+/* Section 1 About*/
 
 .section1-about {
   padding-top: 75px;
@@ -245,8 +247,96 @@ li {
   display: block;
 }
 
-hr {
+.email-hr {
   display: block;
   width: 140px;
   margin: auto;
+}
+
+/* Summit Logo */
+
+.summit-logo {
+  text-align: center;
+  border: 1px solid #d3d3d3;
+}
+
+.summit-image {
+  width: 100%;
+  border: 1px solid #d3d3d3;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.summit-logo img {
+  width: 50%;
+  height: 200px;
+}
+
+.grey-line-about {
+  margin: 15px auto;
+  background-color: #ec5242;
+}
+
+.about-p {
+  font-size: 15px;
+}
+
+/* Last Events */
+
+.last-events {
+  text-align: center;
+}
+
+.last-events-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 90%;
+  margin: 35px auto 0;
+}
+
+.afest-events,
+.univ-events {
+  background-size: cover;
+  height: 200px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #d3d3d3;
+}
+
+.afest-events {
+  background: linear-gradient(rgba(202, 0, 0, 0.705), rgba(219, 0, 0, 0.89)), url(../images/about/a-fest.png);
+  margin: 35px auto 10px;
+}
+
+.univ-events {
+  background: linear-gradient(rgba(202, 0, 0, 0.705), rgba(219, 0, 0, 0.89)), url(../images/about/mindvalley-university.jpg);
+}
+
+.year {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/*
+  ========================================
+  Media Query
+  ========================================
+*/
+
+.section1 h1,
+.date {
+  width: 50%;
+}
+
+.description {
+  width: 40%;
 }
