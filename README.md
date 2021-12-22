@@ -6,7 +6,7 @@
 
 ![gif](images/portfolio.gif)
 
-This project have two pages, home page and about page. It has a mobile and a desktop version, the Mobile menu is made using JavaScript, and the Speakers on the home page as well.
+This project has two pages, a home page and an about page. It has a mobile and a desktop version, the Mobile menu is made using JavaScript, and the Speaker's section on the home page as well.
 
 ## Built With
 
