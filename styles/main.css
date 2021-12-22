@@ -23,18 +23,15 @@ body {
 
 /* header */
 
-.toolbar {
-  position: absolute;
-  width: 100%;
-  padding-top: 15px;
-}
-
 .nav-mobile i {
   color: #272a31;
+  padding: 10px;
+  position: absolute;
 }
 
 .nav-desktop,
-.logo {
+.logo,
+.black-bar {
   display: none;
 }
 
@@ -426,11 +423,8 @@ h3 {
 
   /* header */
 
-  .toolbar {
-    padding: 10px 10%;
-    position: relative;
-    background-color: #fff;
-    width: auto;
+  .nav-desktop {
+    display: block;
   }
 
   .nav-mobile,
@@ -439,36 +433,64 @@ h3 {
     display: none;
   }
 
-  .nav-desktop {
+  .black-bar {
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    background-color: #272a31;
+    color: #d3d3d3;
+    align-items: center;
+    padding: 0 10% 3px;
+  }
+
+  .white-bar {
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 12px 10%;
   }
 
-  .nav-desktop .logo {
+  .logo {
     width: 100px;
     display: block;
     padding-top: 10px;
   }
 
-  .nav-desktop ul {
+  .black-bar-ul,
+  .white-bar-ul {
     display: flex;
     align-items: center;
+  }
+
+  .black-bar-ul {
+    gap: 1rem;
+  }
+
+  .white-bar-ul {
     gap: 4vw;
   }
 
-  .nav-desktop a {
+  .white-bar-ul a,
+  .black-bar-ul a {
     text-decoration: none;
     font-size: 13px;
+  }
+
+  .black-bar-ul a {
+    color: #d3d3d3;
+  }
+
+  .white-bar-ul a {
     color: #272a31;
   }
 
-  .nav-desktop a:focus {
+  .white-bar-ul a:focus {
     border: 3px solid #ec5242;
     padding: 8px 16px;
   }
 
-  .nav-desktop a:hover {
+  .white-bar-ul a:hover {
     color: #ec5242;
   }
 

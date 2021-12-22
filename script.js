@@ -2,7 +2,7 @@
 
 const hamburger = document.querySelector('.nav-mobile');
 const navigation = document.querySelector('.nav-desktop');
-const navUl = document.querySelector('.nav-desktop > ul');
+const navUl = document.querySelector('.white-bar-ul');
 const closeItem = document.querySelector('.close');
 
 const home = document.createElement('li');
