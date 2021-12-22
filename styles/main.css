@@ -253,12 +253,16 @@ h3 {
 }
 
 .email {
-  font-size: 11px;
-  line-height: normal;
   margin-top: 30px;
 }
 
-.email a {
+.email,
+.email-a {
+  font-size: 11px;
+  line-height: normal;
+}
+
+.email-a {
   display: block;
 }
 
@@ -376,12 +380,16 @@ h3 {
   }
 
   .email {
-    font-size: 13px;
     margin-top: 40px;
+  }
+
+  .email,
+  .email-a {
+    font-size: 13px;
     line-height: 1.5;
   }
 
-  .email a {
+  .email-a {
     font-weight: 700;
   }
 
