@@ -280,7 +280,7 @@ h3 {
 }
 
 .summit-image {
-  width: 430px;
+  max-width: 430px;
   border: 1px solid #d3d3d3;
   height: 250px;
   display: flex;
