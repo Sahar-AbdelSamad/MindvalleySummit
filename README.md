@@ -16,8 +16,7 @@ This project has two pages, a home page and an about page. It has a mobile and a
 
 ## Live Demo
 
-You can see [my page live here](https://sahar-abdelsamad.github.io/CapstoneProject/
-
+You can see [my page live here](https://sahar-abdelsamad.github.io/CapstoneProject/)
 
 ## Authors
 
