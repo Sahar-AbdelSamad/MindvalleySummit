@@ -131,14 +131,11 @@ li {
   color: #d3d3d3;
 }
 
-.flex {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.main-program .flex {
-  gap: 10px;
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 1fr);
+  gap: 1rem;
 }
 
 .grid-item {
@@ -152,14 +149,21 @@ li {
   padding: 20px;
 }
 
+.grid-item:hover {
+  border: 1px solid #d3d3d3;
+}
+
 .grid-item h4 {
   color: #ec5242;
   font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon {
-  width: 100% !important;
-  height: auto !important;
+  width: 2rem !important;
+  height: 3rem !important;
 }
 
 .program,
@@ -208,6 +212,7 @@ h3 {
   display: flex;
   align-items: flex-start;
   gap: 4%;
+  margin-bottom: 30px;
 }
 
 .flex-item p {
@@ -488,37 +493,41 @@ h3 {
 
   /* Main Program */
 
-  .flex {
+  .grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;
-  }
-
-  .main-program .flex {
-    gap: 5px;
+    gap: 0.4rem;
   }
 
   .grid-item {
     border: none;
     background: rgba(116, 116, 116, 0.3);
-    font-size: 14px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 10px;
-    width: 12vw;
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% 10% 60%;
+    align-items: center;
+    gap: 5%;
+    line-height: 1.1;
     text-align: center;
   }
 
   .grid-item h4 {
     color: #ec5242;
-    font-size: 20px;
+    font-size: 1.2rem;
+    line-height: 1;
+    margin-top: 1rem;
   }
 
   .icon {
-    width: 40px !important;
-    height: 50px !important;
-    display: block;
+    width: 3rem !important;
+    margin: auto;
+  }
+
+  .grid-item p {
+    margin-top: 1rem;
+    align-self: flex-start;
   }
 
   button {
@@ -541,7 +550,7 @@ h3 {
 
   /* Speakers */
 
-  .grid {
+  .grid-speakers {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -553,6 +562,7 @@ h3 {
     display: flex;
     gap: 4%;
     height: 140px;
+    margin-bottom: 0;
   }
 
   .flex-item img {
