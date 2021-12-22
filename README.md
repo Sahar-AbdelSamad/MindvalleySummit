@@ -1,59 +1,33 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Capstone Project
 
-> One paragraph statement about the project.
+> This is the capstone project of the first module at Microverse.
 
-![screenshot](./app_screenshot.png)
+![gif](images/portfolio.gif)
 
-Additional description about the project and its features.
+This project have two pages, home page and about page. It has a mobile and a desktop version, the Mobile menu is made using JavaScript, and the Speakers on the home page as well.
 
 ## Built With
 
-- Major languages
+- HTML,CSS, JavaSript
 - Frameworks
-- Technologies used
+- VSCode
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+You can see [my page live here](https://sahar-abdelsamad.github.io/CapstoneProject/
 
 
 ## Authors
 
-👤 **Author1**
+👤 ## Author
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Sahar Abdel Samad**
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@sahar-abdelsamad](https://github.com/Sahar-AbdelSamad)
+- Twitter: [@abdelsamadsahar](https://twitter.com/AbdelSamadSahar)
+- LinkedIn: [abdel-samad-sahar](https://www.linkedin.com/in/abdel-samad-sahar-353977223/)
 
 ## 🤝 Contributing
 
@@ -67,9 +41,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to Microverse
+- Original design idea by [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 ## 📝 License
 
