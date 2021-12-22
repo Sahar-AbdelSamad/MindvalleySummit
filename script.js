@@ -1,4 +1,4 @@
-//Mobile Menu
+// Mobile Menu
 
 const hamburger = document.querySelector('.nav-mobile');
 const navigation = document.querySelector('.nav-desktop');
@@ -30,46 +30,46 @@ const data = [
     imageAlt: 'Vishen Lakhiani image',
     imageSrc: 'http://127.0.0.1:5500/images/home/vishen-lakhiani.jpg',
     name: 'Vishen Lakhiani',
-    title: 'Founder of Mindvalley'
+    title: 'Founder of Mindvalley',
   },
   {
     description: 'Shefali Tsabary, PhD., was exposed to Eastern philosophy at an early age and integrates its teachings with Western psychology.',
     imageAlt: 'Dr Shefali Tsabary image',
     imageSrc: 'http://127.0.0.1:5500/images/home/dr-shefali-tsabary.jpeg',
     name: 'Dr. Shefali Tsabary',
-    title: 'Clinical Psychologist'
+    title: 'Clinical Psychologist',
   },
   {
     description: 'Kwik Brain is a fun, fast-paced show designed to help busy people learn and achieve anything in a fraction of the time!',
     imageAlt: 'Jim Kwik image',
     imageSrc: 'http://127.0.0.1:5500/images/home/jim-kwik.jpeg',
     name: 'Jim Kwik',
-    title: 'CEO, Kwik Learning'
+    title: 'CEO, Kwik Learning',
   },
   {
     description: 'Eric is an insightful mentor and a powerful presenter.Best-selling author of LET THE MAGIC BEGIN, movie and television star.',
     imageAlt: 'Eric Edmeades image',
     imageSrc: 'http://127.0.0.1:5500/images/home/eric-edmeades.jpeg',
     name: 'Eric Edmeades',
-    title: 'Entrepreneur and Speaker'
+    title: 'Entrepreneur and Speaker',
   },
   {
     description: 'A celebrated motivational speaker who has inspired millions through her seminars and her role as a featured teacher in The Secret.',
     imageAlt: 'Lisa Nichols image',
     imageSrc: 'http://127.0.0.1:5500/images/home/lisa-nichols.jpg',
     name: 'Lisa Nichols',
-    title: 'International Speaker'
+    title: 'International Speaker',
   },
   {
     description: 'Behavioral investigator with Science of People and author of Captivate: The Science of Succeeding with People.',
     imageAlt: 'Vanessa Van Edwards image',
     imageSrc: 'http://127.0.0.1:5500/images/home/vanessa-van-edwards.jpg',
     name: 'Vanessa Van Edwards',
-    title: 'Founder of Science of People'
-  }
+    title: 'Founder of Science of People',
+  },
 ];
 
-for(let i=0; i<data.length; i++){
+for (let i = 0; i < data.length; i += 1) {
   const speakerSection = document.querySelector('#speaker');
   const flexItem = document.createElement('div');
   flexItem.className = ('flex-item');
@@ -77,7 +77,6 @@ for(let i=0; i<data.length; i++){
   image.src = data[i].imageSrc;
   image.alt = data[i].imageAlt;
   flexItem.appendChild(image);
-
 
   const flexdiv = document.createElement('div');
   flexdiv.className = ('speaker');
@@ -98,7 +97,6 @@ for(let i=0; i<data.length; i++){
   flexdesc.id = ('description');
   flexdesc.textContent = data[i].description;
   flexdiv.appendChild(flexdesc);
-
 
   flexItem.appendChild(flexdiv);
   speakerSection.appendChild(flexItem);
