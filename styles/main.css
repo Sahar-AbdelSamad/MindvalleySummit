@@ -354,6 +354,11 @@ h3 {
     display: none;
   }
 
+  .email {
+    font-size: 13px;
+    margin-top: 40px;
+    line-height: 1.5;
+  }
   
   .nav-desktop {
     display: flex;
@@ -511,11 +516,6 @@ h3 {
     display: none;
   }
 
-  /* .section1-about {
-  padding-top: 75px;
-  text-align: center;
-} */
-
   .section1-about h1 {
     font-size: 35px;
     margin-bottom: 15px;
@@ -533,12 +533,6 @@ h3 {
     font-size: 15px;
     width: 90%;
     margin: auto;
-  }
-
-  .email {
-    font-size: 13px;
-    margin-top: 40px;
-    line-height: 1.5;
   }
 
   .email a {
