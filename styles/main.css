@@ -65,6 +65,7 @@ li {
 .footer {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .logo-footer {
@@ -73,7 +74,6 @@ li {
 
 .footer small {
   text-align: center;
-  font-size: 0.8rem;
 }
 
 /*
