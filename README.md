@@ -1,12 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Capstone Project
+# Mindvalley Summit
 
 > This is the capstone project of the first module at Microverse.
+> It's a project is about Mindvalley (an online school) 2021 Summit. It lists all the speakers that are going to speak at the summit and has a Responsive Web Design. The Mobile menu and the section "Featured speakers" are created dynamically in JavaScript. Note: Not all contents used to create this website design are accurate.
 
 ![gif](images/portfolio.gif)
-
-This project has two pages, a home page and an about page. It has a mobile and a desktop version, the Mobile menu is made using JavaScript, and the Speaker's section on the home page as well.
 
 ## Built With
 
@@ -16,7 +15,7 @@ This project has two pages, a home page and an about page. It has a mobile and a
 
 ## Live Demo
 
-You can see [my page live here](https://sahar-abdelsamad.github.io/CapstoneProject/)
+You can see [my page live here](https://sahar-abdelsamad.github.io/MindvalleySummit/)
 
 ## Authors
 
