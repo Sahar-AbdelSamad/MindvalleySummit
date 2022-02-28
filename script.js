@@ -12,7 +12,7 @@ const toggleMenu = () => {
   navigation.classList.toggle('menu');
   listItem.innerText = ('Home');
   listItem.href = ('index.html');
-  listItem.classList.add('homeA');
+  listItem.classList.add('home-a');
   listItem.classList.toggle('homeLink');
   home.appendChild(listItem);
   navUl.insertBefore(listItem, navUl.childNodes[0]);
