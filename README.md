@@ -12,8 +12,8 @@
 ### Clone this repository
 
 ```bash
-$ git clone git@github.com:Sahar-AbdelSamad/Tribute-Page.git
-$ cd Tribute-Page
+$ git clone git@github.com:Sahar-AbdelSamad/MindvalleySummit.git
+$ cd MindvalleySummit
 ```
 ### Run the live server or open index.html with your browser
 
